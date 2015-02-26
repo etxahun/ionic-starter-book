@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>2 Ionic generator | Primeros Pasos con Ionic Framework</title>
+
+    <!-- Styles and fonts -->
+    <link href="../themes/glide/stylesheets/glide.css" rel="stylesheet" type="text/css" />
+    <link href="../themes/glide/stylesheets/syntax.css" rel="stylesheet" type="text/css" />
+    <link href='//fonts.googleapis.com/css?family=Bree+Serif&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <script src="../themes/glide/javascripts/modernizr.js" type="text/javascript"></script>
+  </head>
+
+  <body class="chapter-1-introduccion chapter-1-introduccion_2-ionic-generator glide">
+    <div class="page-wrapper">
+
+      <!--[if lt IE 7]>
+          <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      <![endif]-->
+
+      <header class="page-header" role="banner">
+<a class="invisilink" href="../">            <span class="book-title">Primeros Pasos con Ionic Framework</span>
+</a>        <span class="book-author visuallyhidden">by aitorllj93</span>
+      </header>
+
+        <div class="content-wrapper clearfix">
+
+          <section class="main-content" role="main">
+            <div class="main-content-source">
+              <h2>Ionic Generator</h2>
+
+<p><img src="http://i.imgur.com/BGrt2QK.png" /><br>
+A pesar de que el propio Ionic incluye un generador integrado, hemos decidido optar por usar un generador de Yeoman, para conservar el mismo sistema de Tareas que en otros proyectos (<strong>Grunt</strong>).</p>
+<pre class="highlight shell">npm install -g generator-ionic
+yo ionic
+</pre>
+
+<p>Este generador nos creará un proyecto base de Ionic y además nos generará un Gruntfile.js con la mayoría de las Tareas que necesitamos (listadas en la sección <strong>Comandos Básicos</strong>).</p>
+
+<h3>Importante</h3>
+
+<p><em>Si encontramos con que algún comando (ya sea de Ionic o de Cordova, no es ejecutable via Grunt, no tendremos más que lanzarlo con el cliente correspondiente)<br>
+Ej: ionic resources<br>
+*</em>grunt resources** // Esta tarea no esta registrada ya que es una nueva funcionalidad de Ionic<br>
+<strong>ionic resources</strong> // Ejecutándola con el cliente de ionic no habrá ningún problema*</p>
+
+            </div>
+            <nav class="main-content-nav clearfix" role="navigation">
+              <ul>
+                <li><a class="previous" href="1-ionic-framework.html">Previous</a></li>
+                <li><a class="next" href="../chapter-2-estructura-del-proyecto/1-ficheros-de-configuracion.html">Next</a></li>
+              </ul>
+            </nav>
+          </section>
+
+          <aside class="aside-content" role="complementary">
+            <div class="aside-wrapper">
+
+              <div class="block table-of-contents">
+                <h3>Table of Contents</h3>
+                <nav role="navigation">
+                  <ul>
+                    <li class='child '><a href="../">Primeros Pasos con Ionic Framework</a></li><li class='parent'><span class='parent-label'>Chapter 1 Introduccion</span><ul><li class='child '><a href="1-ionic-framework.html">1 Ionic framework</a></li><li class='child active'><a href="2-ionic-generator.html">2 Ionic generator</a></li></ul></li><li class='parent'><span class='parent-label'>Chapter 2 Estructura Del Proyecto</span><ul><li class='child '><a href="../chapter-2-estructura-del-proyecto/1-ficheros-de-configuracion.html">1 Ficheros De configuracion</a></li><li class='child '><a href="../chapter-2-estructura-del-proyecto/2-ficheros-de-dependencias.html">2 Ficheros De dependencias</a></li><li class='child '><a href="../chapter-2-estructura-del-proyecto/3-directorios.html">3 directorios</a></li><li class='child '><a href="../chapter-2-estructura-del-proyecto/4-gitignore.html">4 gitignore</a></li></ul></li><li class='parent'><span class='parent-label'>Chapter 3 Comandos Basicos</span><ul><li class='child '><a href="../chapter-3-comandos-basicos/comandos-basicos.html">Comandos basicos</a></li></ul></li><li class='parent'><span class='parent-label'>Chapter 4 Deploy</span><ul><li class='parent'><span class='parent-label'>Section 4.1 Android</span><ul><li class='child '><a href="../chapter-4-deploy/section-4.1-android/1-requisitos.html">1 requisitos</a></li><li class='child '><a href="../chapter-4-deploy/section-4.1-android/2-inicio.html">2 inicio</a></li><li class='child '><a href="../chapter-4-deploy/section-4.1-android/3-keystore.html">3 keystore</a></li></ul></li><li class='parent'><span class='parent-label'>Section 4.2 Ios</span><ul><li class='child '><a href="../chapter-4-deploy/section-4.2-ios/1-requisitos.html">1 requisitos</a></li><li class='child '><a href="../chapter-4-deploy/section-4.2-ios/2-inicio.html">2 inicio</a></li></ul></li></ul></li>
+                  </ul>
+                </nav>
+              </div>
+              <!--
+              <div class="block translations">
+                <h3>Book translations</h3>
+                <p>This book is translated into 
+                  <a href="#">Spanish</a>
+                  and <a href="#">English</a>.
+                  You can help with more translations <a href="https://github.com/aitorllj93/starter-book">on Github</a>.
+                </p>
+              </div>
+              -->
+            </div><!-- end aside-wrapper -->
+          </aside>
+
+        </div><!-- end content-wrapper -->
+
+      <footer class="page-footer">
+
+        <div class="footer-wrapper">
+          <!--
+          <div class="block downloads">&nbsp;
+            <h3>Downloads</h3>
+            <p>Download this book in
+                <a href="#">PDF</a>, <a href="#">mobi</a>, and <a href="#">epub</a>
+              form for free.
+            </p>
+          </div>
+          -->
+          <div class="block license">
+            <h3>License</h3>
+            <p>This book is licensed under the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike</a> license.</p>
+          </div>
+
+          <div class="block open-source">
+            <h3>This book is open source</h3>
+            <p>The source of this book is <a href="https://github.com/aitorllj93/starter-book">hosted on Github</a>. Go, ahead. Check it out.</p>
+          </div>
+
+          <small class="small-text">Made with <a href="http://bitbooks.cc">Bitbooks</a></small>
+
+        </div><!-- end footer-wrapper -->
+
+      </footer>
+
+
+    </div><!-- end page-wrapper -->
+
+    <!-- include scripts just before the close of the body tag -->
+    <script src="../themes/glide/javascripts/anchor.min.js" type="text/javascript"></script>
+    <script src="../themes/glide/javascripts/glide.js" type="text/javascript"></script>
+  </body>
+</html>
