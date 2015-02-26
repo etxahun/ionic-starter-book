@@ -1,5 +1,6 @@
 ## .gitignore
 Directorios a ignorar por el control de versiones
+
 ```bash
 node_modules
 www

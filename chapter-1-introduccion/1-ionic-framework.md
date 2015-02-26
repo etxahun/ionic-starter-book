@@ -8,14 +8,17 @@ Ionic Framework está construido sobre las siguientes tecnologías:
 
 Está compuesto por las siguientes herramientas:
 * **ionic-cli**: cliente de terminal para lanzar distintas tareas
+
 ```bash
 npm install -g ionic
 ```
 * **ionic-bower**: conjunto de directivas, servicios y estilos orientados a móvil desarrollados sobre AngularJS
+
 ```bash
 bower install --save ionic
 ```
 * **ngCordova**: wrapper de los servicios expuestos por Cordova para AngularJS
+
 ```bash
 bower install --save ngCordova
 ```
