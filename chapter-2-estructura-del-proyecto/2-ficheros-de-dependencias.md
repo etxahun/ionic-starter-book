@@ -31,6 +31,7 @@ Fichero de dependencias auxiliares (Grunt Tasks, Cordova Plugins...)
 
 ## bower.json
 Fichero de dependencias JavaScript
+
 ```javascript
 {
  "name": "PruebaCordova",

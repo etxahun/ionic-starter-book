@@ -33,6 +33,7 @@ Archivo principal de configuración de Cordova, aquí se indican los datos bási
 
 ## ionic.project
 Similar a config.xml pero para Ionic
+
 ```javascript
 {
 "name": "prueba-cordova",
